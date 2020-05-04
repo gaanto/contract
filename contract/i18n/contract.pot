@@ -167,7 +167,7 @@ msgid "Company"
 msgstr ""
 
 #. module: contract
-#: code:addons/contract/models/account_analytic_account.py:342
+#: code:addons/contract/models/account_analytic_account.py:347
 #, python-format
 msgid "Compose Email"
 msgstr ""
@@ -323,7 +323,7 @@ msgid "Discount (%)"
 msgstr ""
 
 #. module: contract
-#: code:addons/contract/models/account_analytic_contract_line.py:179
+#: code:addons/contract/models/account_analytic_contract_line.py:180
 #, python-format
 msgid "Discount should be less or equal to 100"
 msgstr ""
@@ -644,6 +644,11 @@ msgid "Valid"
 msgstr ""
 
 #. module: contract
+#: model:ir.actions.act_window,name:contract.act_purchase_recurring_invoices
+msgid "Vendor Bills"
+msgstr ""
+
+#. module: contract
 #: selection:account.analytic.account,recurring_rule_type:0
 #: selection:account.analytic.contract,recurring_rule_type:0
 msgid "Week(s)"
@@ -674,7 +679,7 @@ msgid "You must first select a Supplier for Contract %s!"
 msgstr ""
 
 #. module: contract
-#: code:addons/contract/models/account_analytic_account.py:294
+#: code:addons/contract/models/account_analytic_account.py:299
 #, python-format
 msgid "You must review start and end dates!\n"
 "%s"
